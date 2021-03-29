@@ -1,0 +1,10 @@
+alias ga="git add ."
+alias gc="git commit -m"
+alias gp="git push"
+alias gf="git fetch"
+alias gundo="git push -f origin HEAD^:main" #undo a git push
+alias gpc="git reset --soft HEAD" #get previous commit
+alias gb="git checkout"
+alias gnb="git checkout -b"
+alias gcu="git remote -v" #git code url
+alias gcl="git clone"
