@@ -98,6 +98,14 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="sudo nano ~/.zshrc"
 
+goall() {
+    ga $1 && gc $2 && gp
+}
+
+gall() {
+    ga && gc $1 && gp
+}
+
 
 runpy() {
     python $@
