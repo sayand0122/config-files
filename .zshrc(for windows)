@@ -124,7 +124,10 @@ runcpp() {
     g++ $@ -o a && ./a
 }
 
-
+# Using the below function just a theme called
+# "cloud"
+# dont know for other themes
+# using it for a gap between two prompts in my terminal
 precmd() {
     precmd() {
         echo
